@@ -65,7 +65,7 @@ def main():
 		df.at[x,'Score'] = score
 		log(('RESPONDANT', (x+1), 'SCORE:', df.iloc[x,1], '------------')) 
 	
-	print(df["Score"])
+	print(df["Score:"])
 
 	df.to_csv('test.csv', index=False)
 	
