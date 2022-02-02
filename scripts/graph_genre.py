@@ -20,7 +20,6 @@ for x in range(df.shape[0]):
 		count[8] += 1
 	else:	
 		for y in range(8):
-			print('RESPONSE:', response, '|', label[y])
 			if response == label[y]:
 				print('match found')
 				scoreSum[y] += df.iloc[x, 1]
