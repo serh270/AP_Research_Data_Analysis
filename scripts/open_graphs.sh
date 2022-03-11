@@ -4,7 +4,7 @@ echo "beginning tabulations"
 python3.10 TAScalc.py
 python3.10 graph_age.py
 python3.10 graph_genre.py
-pytohn3.10 graph_genre_num.py
+python3.10 graph_genre_num.py
 python3.10 graph_hrs_gaming.py
 
 echo "tabulation complete. Opening graphs"
